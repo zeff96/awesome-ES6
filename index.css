@@ -146,6 +146,17 @@ html {
   padding-inline: 2rem;
 }
 
+.alert {
+  color: green;
+  font-size: 1.6rem;
+  padding: 0.2rem 1rem;
+  display: none;
+}
+
+.alert.active {
+  display: inline-block;
+}
+
 .add-title,
 .add-author {
   width: 100%;
