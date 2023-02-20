@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.d-flex {
+  display: flex !important;
+  gap: 1.2rem;
+}
+
+.d-flex-column {
+  display: flex !important;
+  flex-direction: column;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.text-align-center {
+  text-align: center !important;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  padding: 0.5rem 0;
+  height: 6rem;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.navbar {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  border: 2px solid;
+  border-radius: 0.5rem;
+  padding-inline: 1rem;
+}
+
+.nav-header {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.list {
+  list-style: none;
+}
+
+.nav-link {
+  color: #000;
+  padding-right: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.link-1,
+.link-2 {
+  border-right: 1px solid;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+.nav-link.live {
+  color: blue;
+}
+
+.main {
+  width: 100%;
+  padding-top: 6.5rem;
+}
+
+.section {
+  margin-bottom: 2rem;
+  height: 100vh;
+  display: none;
+}
+
+.show-date {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.date-container {
+  font-size: 1.6rem;
+  font-weight: 600;
+  float: right;
+}
+
+.books-container {
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid;
+  border-radius: 0.5rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.child-container {
+  height: 5rem;
+  padding-inline: 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.child-container:nth-child(odd) {
+  background-color: darkgray;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.form {
+  width: 50%;
+  padding-inline: 2rem;
+}
+
+.add-title,
+.add-author {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.submit {
+  padding-inline: 1rem;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  float: right;
+}
+
+.article {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.article-text {
+  margin-bottom: 2rem;
+}
+
+.items {
+  padding-left: 5rem;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  height: 6rem;
+  bottom: 0;
+}
+
+.footer-para {
+  width: 90%;
+  border: 2px solid;
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 2rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  z-index: 2;
+  font-size: 2rem;
+  font-weight: 600;
+}
