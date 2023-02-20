@@ -1,7 +1,7 @@
 import { render } from './modules/app.js';
 import addBooks, { addTitle, addAuthor } from './modules/create.js';
 import toggleMenu from './modules/menu.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+import { DateTime } from './modules/luxon.js';
 
 const addBtn = document.querySelector('.btn');
 const dateContainer = document.querySelector('.date-container');
